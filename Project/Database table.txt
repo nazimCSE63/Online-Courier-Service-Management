@@ -1,0 +1,74 @@
+CREATE TABLE brance_table
+(
+	bra_Name varchar(200) NOT NULL PRIMARY KEY,
+	bra_location varchar(200) NULL,
+	bra_City varchar(200) NULL
+);
+
+
+CREATE TABLE use_table
+(
+	us_id varchar(200) NOT NULL PRIMARY KEY,
+	us_name varchar(200) NULL,
+	us_pass varchar(200) NULL,
+        us_add varchar(200) NULL,
+        us_email varchar(200) NULL
+);
+
+CREATE TABLE sta_table
+(
+	sta_id varchar(200) NOT NULL PRIMARY KEY,
+	sta_name varchar(200) NULL,
+	sta_pass varchar(200) NULL,
+        sta_add varchar(200) NULL,
+        sta_email varchar(200) NULL,
+        sta_posi varchar(200) NULL
+);
+
+
+CREATE TABLE tra_table
+(
+	pro_id varchar(200) NOT NULL PRIMARY KEY,
+	mobile_num varchar(200) NULL,
+	rece_city varchar(200) NULL
+);
+
+CREATE TABLE manage1_table
+(
+	manage1_id varchar(200) NOT NULL PRIMARY KEY
+);
+
+CREATE TABLE manage2_table
+(
+	manage2_id varchar(200) NOT NULL PRIMARY KEY
+);
+
+
+
+
+CREATE TABLE manag_table
+(
+	manag_id varchar(200) NOT NULL PRIMARY KEY,
+	manag_name varchar(200) NULL,
+	manag_pass varchar(200) NULL,
+        manag_add varchar(200) NULL,
+        manag_email varchar(200) NULL
+);
+
+CREATE TABLE ad_table
+(
+	ad_id varchar(200) NOT NULL PRIMARY KEY,
+	ad_name varchar(200) NULL,
+	ad_pass varchar(200) NULL,
+        ad_add varchar(200) NULL,
+        ad_email varchar(200) NULL
+);
+
+CREATE TABLE del_table
+(
+	del_id varchar(200) NOT NULL PRIMARY KEY,
+	del_add varchar(200) NULL,
+	del_pnum varchar(200) NULL
+);
+
+
